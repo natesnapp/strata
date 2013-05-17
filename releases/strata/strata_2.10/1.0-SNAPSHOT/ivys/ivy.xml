@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="strata" module="strata_2.10" revision="1.0-SNAPSHOT" status="integration" publication="20130517000722">
+	<info organisation="strata" module="strata_2.10" revision="1.0-SNAPSHOT" status="integration" publication="20130517003234">
 		<description>
-		strata
+		Strata
 		</description>
 	</info>
 	<configurations>
@@ -29,6 +29,9 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.0" conf="compile->default(compile)"/>
 		<dependency org="play" name="play_2.10" rev="2.1.1" conf="compile->default(compile)"/>
 		<dependency org="play" name="play-test_2.10" rev="2.1.1" conf="test->default(compile)"/>
+		<dependency org="joda-time" name="joda-time" rev="2.2" conf="compile->default(compile)"/>
+		<dependency org="commons-collections" name="commons-collections" rev="3.2.1" conf="compile->default(compile)"/>
+		<dependency org="commons-lang" name="commons-lang" rev="2.6" conf="compile->default(compile)"/>
 		<dependency org="play" name="play-java_2.10" rev="2.1.1" conf="compile->default(compile)"/>
 		<dependency org="play" name="play-java-jdbc_2.10" rev="2.1.1" conf="compile->default(compile)"/>
 		<dependency org="play" name="play-java-ebean_2.10" rev="2.1.1" conf="compile->default(compile)"/>
